@@ -4,6 +4,7 @@ Mi direccion de GitHub para este repositorio es la siguiente: [GitHub](https://g
 https://github.com/jzazooro/EXAMEN.git
 
 Hemos programado dos ejercicios: el segundo consise en un juego que comienza con seis fichas en un tablero 3x3 pero en posiciones aleatorias(3fichas cada jugador). Las fichas se mueven solo verticalmente, tantas posiciones como quieran, hemos programado esto respetando los turnos de los dos jugadores, que son dos IAs, ademas si una de los dos jugadores no puede mver ninguna de sus fichas habrá perdido. Por lo meno se tiene que poder realizar un movimiento.
+En el ejercicio 1 aunque no he sabido como programarlo, pero deberiamos haber separado las letras de la palabra banana en cadenas de caracteres, y ver cuantas se pueden formar que empiecen por vocal, y cuantas por consonante, cuantas mas veces se repitan en la palabra banana, mas puntos daran.
 
 ejercicio2:
 ```import random
