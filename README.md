@@ -5,7 +5,7 @@ https://github.com/jzazooro/EXAMEN.git
 
 Hemos programado dos ejercicios: el segundo consise en un juego que comienza con seis fichas en un tablero 3x3 pero en posiciones aleatorias(3fichas cada jugador). Las fichas se mueven solo verticalmente, tantas posiciones como quieran, hemos programado esto respetando los turnos de los dos jugadores, que son dos IAs, ademas si una de los dos jugadores no puede mver ninguna de sus fichas habrá perdido. Por lo meno se tiene que poder realizar un movimiento.
 
-
+ejercicio2:
 ```import random
 
 fichasblancas='B'
@@ -31,6 +31,30 @@ def colocarfichasinicialmente():
     global fichasnegras
     #vamos a colocar las fichas negras en el tablero
     situadas=0
+    
+    
+    
+ejercicio1:
+def minion_game (cadena):
+    puntuacionstuart = 0
+    puntuacionkevin = 0
+    vocal = 'aeiouAEIOU'
+    for i in range (len(cadena)):
+        if cadena[i] not in vocal:
+            puntuacionstuart += (len(cadena))
+        else: 
+            puntuacionkevin += (len(cadena))
+    print ("La puntuación de Stuart es " + str(puntuacionstuart) + "y la puntuación de Kevin es " + puntuacionkevin)
+    if puntuacionstuart > puntuacionkevin:
+        print ("Ganador, Stuart")
+    elif puntuacionstuart < puntuacionkevin:
+        print ("Ganador, Kevin")
+    else:
+        print ("Empate (' ') ")
+if __name__ == "_main_":
+    cadena = input ("Escoja una palabra: ")
+    minion_game(cadena)
+
 
     while(situadas<3):
         ale1=random.randint(0, 2)
